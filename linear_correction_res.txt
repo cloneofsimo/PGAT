@@ -1,0 +1,29 @@
+for model with d_m = 512
+
+model_TrainedOn0_check1.dat : 165 : unique set : 16378
+model_TrainedOn0_check1.dat : 317 : unique set : 32760
+model_TrainedOn0_check1.dat : 630 : unique set : 65502
+model_TrainedOn0_check1.dat : 1279 : unique set : 130892
+model_TrainedOn0_check1.dat : 2510 : unique set : 261639
+model_TrainedOn0_check1.dat : 5026 : unique set : 522311
+
+
+
+on d_m = 128
+
+size_128model_TrainedOn0_final1.dat : 139 : unique set : 9994
+size_128model_TrainedOn0_final1.dat : 1570 : unique set : 99840
+size_128model_TrainedOn0_final1.dat : 13909 : unique set : 989183
+
+
+d_m : 256 :
+
+187 : 9991
+1819 : 99807
+16158 : 988673
+
+
+d_m = 256, fine_tuned:
+ft_size_256model_TrainedOnEnglish_words_final1.dat : 182 : unique set : 9996
+ft_size_256model_TrainedOnEnglish_words_final1.dat : 1763 : unique set : 99863
+ft_size_256model_TrainedOnEnglish_words_final1.dat : 16304 : unique set : 989977
